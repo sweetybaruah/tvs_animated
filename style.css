@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    position: relative;
+    width: 300px;
+    height: 250px;
+    overflow: hidden;
+    /* background: url(images/Preview-v1.jpg); */
+    /* background: url(images/Preview-v2.jpg); */
+    /* background: url(images/Slide3/300x250tvs-prediction-v2.jpg); */
+    /* z-index: 3333; */
+}
+
+.hidden{
+    display: none;
+}
+
+.bg{
+    position: absolute;
+    width: 600px;
+    height: 250px;
+    left: -300px;
+    /* z-index: -3333; */
+}
+.logo{
+    position: absolute;
+    width: 279px;
+    height: 19px;
+    top: 12px;
+    left: 11px;
+}
+.element1{
+    position: absolute;
+    width: 204px;
+    height: 71px;
+    top: 48px;
+    left: 46px;
+}
+
+.element2{
+    position: absolute;
+    width: 116px;
+    height: 60px;
+    top: 141px;
+    left: 24px;
+    cursor: pointer;
+    text-align: center;
+}
+.left{
+    position: absolute;
+    color: white;
+    top: 19px;
+    left: 24px;
+    font-family: 'Siyam Rupali';
+    font-weight: bolder;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+}
+.left1{
+    margin-left: 2px;
+    position: absolute;
+    color: white;
+    top: 208px;
+    left: 10px;
+    font-family: 'Siyam Rupali';
+    font-weight: bolder;
+    font-size: 10px;
+    cursor: pointer;
+}
+.element3{
+    position: absolute;
+    width: 116px;
+    height: 60px;
+    top: 141px;
+    left: 160px;
+    cursor: pointer;
+    text-align: center;
+}
+.right{
+    position: absolute;
+    color: white;
+    top: 20px;
+    left: 15px;
+    font-family: 'Siyam Rupali';
+    font-weight: bolder;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+}
+.right1{
+    margin-left: 2px;
+    position: absolute;
+    color: white;
+    top: 209px;
+    left: 231px;
+    font-family: 'Siyam Rupali';
+    font-weight: bolder;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.element4{
+    position: absolute;
+    width: 123px;
+    height: 12px;
+    top: 222px;
+    left: 89px;
+}
+.element5{
+    position: absolute;
+    width: 171px;
+    height: 44px;
+    top: 58px;
+    left: 65px;
+}
+.element6{
+    position: absolute;
+    width: 225px;
+    height: 164px;
+    top: 86px;
+    left: 0px;
+}
+.element7{
+    position: absolute;
+    width: 300px;
+    height: 249px;
+    top: 1px;
+    left: 2px;
+}
+.element8{
+    position: absolute;
+    width: 300px;
+    height: 70px;
+    top: 180px;
+    left: -2px;
+}
+
+.element9{
+    position: absolute;
+    width: 300px;
+    height: 249px;
+    top: 0px;
+    left: 0px;
+}
+.element10{
+    position: absolute;
+    width: 300px;
+    height: 249px;
+    top: 0px;
+    left: 0px;
+}
+.element11{
+    position: absolute;
+    width: 300px;
+    height: 249px;
+    top: 0px;
+    left: 0px;
+}
+.progress{
+    height: 15px;
+    width: 127px;
+    position: absolute;
+    top: 208px;
+    left: 81px;
+    background-color: #ddd;
+    border-radius: 30px;
+    /* border: 1px solid grey;
+    border-radius: 5px; */
+    /* border-style:solid;
+    border-radius: 20%;
+    border-width: 20px;
+    border-bottom: 5px;
+    fill: none;
+    */
+    
+}
+
+.leftpercent{
+    position: absolute;
+    width: 64px;
+    left: 0px;
+    /* color: #fff; */
+    background-color: yellow;
+    text-align: center;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    /* border-bottom-right-radius: 30px; */
+    z-index: 222;
+    /* border-radius-left: 30px; */
+}
+.rightpercent{
+    position: absolute;
+    width: 63.5px;
+    left: 64px;
+    background-color: red;
+    text-align: center;
+    /* color: #fff; */
+    /* border-radius: 30px; */
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    overflow: hidden;
+}
+ 
+
+.pluse{
+    animation: pluse 2s infinite both;
+}
+
+@keyframes pluse{
+    25%{
+        transform: scale(.90);
+    }
+    50%{
+        transform: scale(1);
+    }
+    75%{
+        transform: scale(.90);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+/* .slide{
+    animation: slide 10s infinite;
+}
+@keyframes slide{
+    
+} */
+
+.xoomIn{
+    animation: xoomIn 1s forwards ;
+}
+
+@keyframes xoomIn{
+    20%{
+        transform: scale(.067);
+    }
+    100%{
+        transform: scale(.87);
+
+    }
+}
+
+.bikeAni1{
+    animation: bikeAni1 1s both;
+}
+
+@keyframes bikeAni1{
+    from{
+        left: -226px;
+    }
+    to{
+        left: 0px;
+    }
+}
+
+.bikeAni2{
+    animation: bikeAni2 1s both;
+}
+
+@keyframes bikeAni2{
+    from{
+        left: 0px;
+    }
+    to{
+        left: 303px;
+    }
+}
+
+.fadeIn{
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+
+}
+@keyframes fadeIn{
+        20%{
+            transform: translateX(15);
+            opacity: .5;
+        }
+}
+@keyframes showZoomIn {
+    from {
+      transform: scale3d(0.5, 0.5, 0.5);
+    }
+    to {
+      transform: scale3d(1, 1, 1);
+    }
+  }
+  .showZoomIn {
+    animation-name: showZoomIn;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+  }
